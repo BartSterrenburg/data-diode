@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"T:/build/vitis_work/platform/zynq_fsbl/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

@@ -1,0 +1,73 @@
+attempting to launch hw_server
+
+****** Xilinx hw_server v2026.1
+  **** Build date : May 29 2026 at 14:55:19
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+
+INFO: hw_server application started
+INFO: Use Ctrl-C to exit hw_server application
+
+
+
+****** Xilinx hw_server v2026.1
+
+  **** Build date : May 29 2026 at 14:55:19
+
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+    ** Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+
+
+
+INFO: hw_server application started
+
+INFO: Use Ctrl-C to exit hw_server application
+
+
+
+
+INFO: To connect to this hw_server instance use url: TCP:127.0.0.1:3121
+
+
+
+E000B000:   0000001C
+
+E000B004:   011F20C3
+
+E000B008:   00000006
+
+E000B010:   00180F10
+
+E000B020:   00000000
+
+E000B100:   00000000
+
+E000B150:   00000000
+
+E000B154:   00000000
+
+E000B158:   00000000
+
+F8000140:   00100801
+
+PHY reg 0: E000B034:   60821040
+
+PHY reg 1: E000B034:   608679AD
+
+PHY reg 2: E000B034:   608A001C
+
+PHY reg 3: E000B034:   608EC916
+
+PHY reg 4: E000B034:   60920DE1
+
+PHY reg 5: E000B034:   6096CDE1
+
+PHY reg 9: E000B034:   60A60200
+
+PHY reg 10: E000B034:   60AA4800
+
+PHY reg 17: E000B034:   60C60000
+
+PHY reg 26: E000B034:   60EA39EC
+

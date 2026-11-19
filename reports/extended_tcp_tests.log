@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "C:\Users\barts\Documents\ChatGPT\Project Data-diode\tcp_ps_pl_led_demo\scripts\hardware_tests.py", line 24, in <module>
+    other.send(b'STATUS\n')
+    ~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\barts\Documents\ChatGPT\Project Data-diode\tcp_ps_pl_led_demo\client.py", line 7, in send
+    def send(self,data):self.sock.sendall(data)
+                        ~~~~~~~~~~~~~~~~~^^^^^^
+ConnectionResetError: [WinError 10054] De externe host heeft een verbinding verbroken

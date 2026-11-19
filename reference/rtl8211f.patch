@@ -1,0 +1,26 @@
+--- AMD-2026.1/xemacpsif_physpeed.c
++++ project/vendor_xemacpsif_physpeed.c
+@@ -1133,6 +1133,23 @@
+ 		return XST_FAILURE;
+ 	}
+ 
++	/* Z7-Nano RTL8211F (ID 001c:c916): PHYSR is register 0x1a,
++	 * link bit 2, speed bits 5:4. The legacy Realtek path below uses
++	 * register 0x11 and is retained for other Realtek parts. */
++	{
++		u16_t model;
++		XEmacPs_PhyRead(xemacpsp, phy_addr, PHY_IDENTIFIER_2_REG, &model);
++		if (model == 0xc916) {
++			XEmacPs_PhyRead(xemacpsp, phy_addr, 0x1a, &status_speed);
++			if (!(status_speed & 0x0004)) return XST_FAILURE;
++			switch ((status_speed >> 4) & 3) {
++			case 2: return 1000;
++			case 1: return 100;
++			case 0: return 10;
++			default: return XST_FAILURE;
++			}
++		}
++	}
+ 	XEmacPs_PhyRead(xemacpsp, phy_addr,IEEE_SPECIFIC_STATUS_REG,
+ 					&status_speed);
+ 	if (status_speed & 0x400) {

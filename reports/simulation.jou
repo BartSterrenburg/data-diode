@@ -1,0 +1,25 @@
+#-----------------------------------------------------------
+# Vivado v2026.1 (64-bit)
+# SW Build 6511674 on Tue Jun 16 11:02:23 MDT 2026
+# IP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026
+# SharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026
+# Start of session at: Thu Nov 12 16:37:20 2026
+# Process ID         : 13844
+# Current directory  : C:/Users/barts/Documents/ChatGPT/Project Data-diode
+# Command line       : vivado.exe -mode batch -source tcp_ps_pl_led_demo\scripts\simulate.tcl -log tcp_ps_pl_led_demo\reports\simulation.log -journal tcp_ps_pl_led_demo\reports\simulation.jou
+# Log file           : C:/Users/barts/Documents/ChatGPT/Project Data-diode/tcp_ps_pl_led_demo/reports/simulation.log
+# Journal file       : C:/Users/barts/Documents/ChatGPT/Project Data-diode\tcp_ps_pl_led_demo\reports\simulation.jou
+# Running On         : BartOS
+# Platform           : Windows 11
+# Operating System   : 26200
+# Processor Detail   : AMD Ryzen 7 PRO 7840HS w/ Radeon 780M Graphics 
+# CPU Frequency      : 3793 MHz
+# CPU Physical cores : 8
+# CPU Logical cores  : 16
+# Host memory        : 33585 MB
+# Swap memory        : 2147 MB
+# Total Virtual      : 35732 MB
+# Available Virtual  : 12602 MB
+#-----------------------------------------------------------
+source {tcp_ps_pl_led_demo\scripts\simulate.tcl}
+source tb_led_registers.tcl

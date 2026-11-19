@@ -1,0 +1,4 @@
+0020005c B diagnostic_heartbeat
+00200058 B diagnostic_stage
+00200060 B diagnostic_version
+001004a8 T main

@@ -1,0 +1,68 @@
+[
+{
+  "directory": "T:/build/vitis_work/tcp_led/build",
+  "command": "C:\\AMDDesignTools\\2026.1\\Vitis\\gnu\\aarch32\\nt\\gcc-arm-none-eabi\\bin\\arm-none-eabi-gcc.exe -IT:/build/vitis_work/tcp_led/build/include -IT:/build/vitis_work/platform/export/platform/sw/standalone/include/include -isystem T:/build/vitis_work/platform/export/platform/sw/standalone/include -isystem C:/AMDDesignTools/2026.1/gnu/aarch32/nt/gcc-arm-none-eabi/x86_64-oesdk-mingw32/usr/lib/arm-xilinx-eabi/gcc/arm-xilinx-eabi/13.4.0/include -isystem C:/AMDDesignTools/2026.1/gnu/aarch32/nt/gcc-arm-none-eabi/x86_64-oesdk-mingw32/usr/lib/arm-xilinx-eabi/gcc/arm-xilinx-eabi/13.4.0/include-fixed -isystem C:/AMDDesignTools/2026.1/Vitis/gnu/aarch32/nt/gcc-arm-none-eabi/aarch32-xilinx-eabi/usr/include  -DSDT -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard  -MMD -MP -specs=T:/build/vitis_work/platform/export/platform/sw/standalone/Xilinx.spec -IT:/build/vitis_work/platform/export/platform/sw/standalone/include -Wall -Wextra      -O0  -g3     -U__clang__ -o CMakeFiles\\tcp_led.elf.dir\\si5324.c.obj -c T:\\build\\vitis_work\\tcp_led\\src\\si5324.c",
+  "file": "T:\\build\\vitis_work\\tcp_led\\src\\si5324.c",
+  "output": "CMakeFiles\\tcp_led.elf.dir\\si5324.c.obj"
+},
+{
+  "directory": "T:/build/vitis_work/tcp_led/build",
+  "command": "C:\\AMDDesignTools\\2026.1\\Vitis\\gnu\\aarch32\\nt\\gcc-arm-none-eabi\\bin\\arm-none-eabi-gcc.exe -IT:/build/vitis_work/tcp_led/build/include -IT:/build/vitis_work/platform/export/platform/sw/standalone/include/include -isystem T:/build/vitis_work/platform/export/platform/sw/standalone/include -isystem C:/AMDDesignTools/2026.1/gnu/aarch32/nt/gcc-arm-none-eabi/x86_64-oesdk-mingw32/usr/lib/arm-xilinx-eabi/gcc/arm-xilinx-eabi/13.4.0/include -isystem C:/AMDDesignTools/2026.1/gnu/aarch32/nt/gcc-arm-none-eabi/x86_64-oesdk-mingw32/usr/lib/arm-xilinx-eabi/gcc/arm-xilinx-eabi/13.4.0/include-fixed -isystem C:/AMDDesignTools/2026.1/Vitis/gnu/aarch32/nt/gcc-arm-none-eabi/aarch32-xilinx-eabi/usr/include  -DSDT -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard  -MMD -MP -specs=T:/build/vitis_work/platform/export/platform/sw/standalone/Xilinx.spec -IT:/build/vitis_work/platform/export/platform/sw/standalone/include -Wall -Wextra      -O0  -g3     -U__clang__ -o CMakeFiles\\tcp_led.elf.dir\\echo.c.obj -c T:\\build\\vitis_work\\tcp_led\\src\\echo.c",
+  "file": "T:\\build\\vitis_work\\tcp_led\\src\\echo.c",
+  "output": "CMakeFiles\\tcp_led.elf.dir\\echo.c.obj"
+},
+{
+  "directory": "T:/build/vitis_work/tcp_led/build",
+  "command": "C:\\AMDDesignTools\\2026.1\\Vitis\\gnu\\aarch32\\nt\\gcc-arm-none-eabi\\bin\\arm-none-eabi-gcc.exe -IT:/build/vitis_work/tcp_led/build/include -IT:/build/vitis_work/platform/export/platform/sw/standalone/include/include -isystem T:/build/vitis_work/platform/export/platform/sw/standalone/include -isystem C:/AMDDesignTools/2026.1/gnu/aarch32/nt/gcc-arm-none-eabi/x86_64-oesdk-mingw32/usr/lib/arm-xilinx-eabi/gcc/arm-xilinx-eabi/13.4.0/include -isystem C:/AMDDesignTools/2026.1/gnu/aarch32/nt/gcc-arm-none-eabi/x86_64-oesdk-mingw32/usr/lib/arm-xilinx-eabi/gcc/arm-xilinx-eabi/13.4.0/include-fixed -isystem C:/AMDDesignTools/2026.1/Vitis/gnu/aarch32/nt/gcc-arm-none-eabi/aarch32-xilinx-eabi/usr/include  -DSDT -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard  -MMD -MP -specs=T:/build/vitis_work/platform/export/platform/sw/standalone/Xilinx.spec -IT:/build/vitis_work/platform/export/platform/sw/standalone/include -Wall -Wextra      -O0  -g3     -U__clang__ -o CMakeFiles\\tcp_led.elf.dir\\sfp.c.obj -c T:\\build\\vitis_work\\tcp_led\\src\\sfp.c",
+  "file": "T:\\build\\vitis_work\\tcp_led\\src\\sfp.c",
+  "output": "CMakeFiles\\tcp_led.elf.dir\\sfp.c.obj"
+},
+{
+  "directory": "T:/build/vitis_work/tcp_led/build",
+  "command": "C:\\AMDDesignTools\\2026.1\\Vitis\\gnu\\aarch32\\nt\\gcc-arm-none-eabi\\bin\\arm-none-eabi-gcc.exe -IT:/build/vitis_work/tcp_led/build/include -IT:/build/vitis_work/platform/export/platform/sw/standalone/include/include -isystem T:/build/vitis_work/platform/export/platform/sw/standalone/include -isystem C:/AMDDesignTools/2026.1/gnu/aarch32/nt/gcc-arm-none-eabi/x86_64-oesdk-mingw32/usr/lib/arm-xilinx-eabi/gcc/arm-xilinx-eabi/13.4.0/include -isystem C:/AMDDesignTools/2026.1/gnu/aarch32/nt/gcc-arm-none-eabi/x86_64-oesdk-mingw32/usr/lib/arm-xilinx-eabi/gcc/arm-xilinx-eabi/13.4.0/include-fixed -isystem C:/AMDDesignTools/2026.1/Vitis/gnu/aarch32/nt/gcc-arm-none-eabi/aarch32-xilinx-eabi/usr/include  -DSDT -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard  -MMD -MP -specs=T:/build/vitis_work/platform/export/platform/sw/standalone/Xilinx.spec -IT:/build/vitis_work/platform/export/platform/sw/standalone/include -Wall -Wextra      -O0  -g3     -U__clang__ -o CMakeFiles\\tcp_led.elf.dir\\main.c.obj -c T:\\build\\vitis_work\\tcp_led\\src\\main.c",
+  "file": "T:\\build\\vitis_work\\tcp_led\\src\\main.c",
+  "output": "CMakeFiles\\tcp_led.elf.dir\\main.c.obj"
+},
+{
+  "directory": "T:/build/vitis_work/tcp_led/build",
+  "command": "C:\\AMDDesignTools\\2026.1\\Vitis\\gnu\\aarch32\\nt\\gcc-arm-none-eabi\\bin\\arm-none-eabi-gcc.exe -IT:/build/vitis_work/tcp_led/build/include -IT:/build/vitis_work/platform/export/platform/sw/standalone/include/include -isystem T:/build/vitis_work/platform/export/platform/sw/standalone/include -isystem C:/AMDDesignTools/2026.1/gnu/aarch32/nt/gcc-arm-none-eabi/x86_64-oesdk-mingw32/usr/lib/arm-xilinx-eabi/gcc/arm-xilinx-eabi/13.4.0/include -isystem C:/AMDDesignTools/2026.1/gnu/aarch32/nt/gcc-arm-none-eabi/x86_64-oesdk-mingw32/usr/lib/arm-xilinx-eabi/gcc/arm-xilinx-eabi/13.4.0/include-fixed -isystem C:/AMDDesignTools/2026.1/Vitis/gnu/aarch32/nt/gcc-arm-none-eabi/aarch32-xilinx-eabi/usr/include  -DSDT -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard  -MMD -MP -specs=T:/build/vitis_work/platform/export/platform/sw/standalone/Xilinx.spec -IT:/build/vitis_work/platform/export/platform/sw/standalone/include -Wall -Wextra      -O0  -g3     -U__clang__ -o CMakeFiles\\tcp_led.elf.dir\\i2c_access.c.obj -c T:\\build\\vitis_work\\tcp_led\\src\\i2c_access.c",
+  "file": "T:\\build\\vitis_work\\tcp_led\\src\\i2c_access.c",
+  "output": "CMakeFiles\\tcp_led.elf.dir\\i2c_access.c.obj"
+},
+{
+  "directory": "T:/build/vitis_work/tcp_led/build",
+  "command": "C:\\AMDDesignTools\\2026.1\\Vitis\\gnu\\aarch32\\nt\\gcc-arm-none-eabi\\bin\\arm-none-eabi-gcc.exe -IT:/build/vitis_work/tcp_led/build/include -IT:/build/vitis_work/platform/export/platform/sw/standalone/include/include -isystem T:/build/vitis_work/platform/export/platform/sw/standalone/include -isystem C:/AMDDesignTools/2026.1/gnu/aarch32/nt/gcc-arm-none-eabi/x86_64-oesdk-mingw32/usr/lib/arm-xilinx-eabi/gcc/arm-xilinx-eabi/13.4.0/include -isystem C:/AMDDesignTools/2026.1/gnu/aarch32/nt/gcc-arm-none-eabi/x86_64-oesdk-mingw32/usr/lib/arm-xilinx-eabi/gcc/arm-xilinx-eabi/13.4.0/include-fixed -isystem C:/AMDDesignTools/2026.1/Vitis/gnu/aarch32/nt/gcc-arm-none-eabi/aarch32-xilinx-eabi/usr/include  -DSDT -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard  -MMD -MP -specs=T:/build/vitis_work/platform/export/platform/sw/standalone/Xilinx.spec -IT:/build/vitis_work/platform/export/platform/sw/standalone/include -Wall -Wextra      -O0  -g3     -U__clang__ -o CMakeFiles\\tcp_led.elf.dir\\platform.c.obj -c T:\\build\\vitis_work\\tcp_led\\src\\platform.c",
+  "file": "T:\\build\\vitis_work\\tcp_led\\src\\platform.c",
+  "output": "CMakeFiles\\tcp_led.elf.dir\\platform.c.obj"
+},
+{
+  "directory": "T:/build/vitis_work/tcp_led/build",
+  "command": "C:\\AMDDesignTools\\2026.1\\Vitis\\gnu\\aarch32\\nt\\gcc-arm-none-eabi\\bin\\arm-none-eabi-gcc.exe -IT:/build/vitis_work/tcp_led/build/include -IT:/build/vitis_work/platform/export/platform/sw/standalone/include/include -isystem T:/build/vitis_work/platform/export/platform/sw/standalone/include -isystem C:/AMDDesignTools/2026.1/gnu/aarch32/nt/gcc-arm-none-eabi/x86_64-oesdk-mingw32/usr/lib/arm-xilinx-eabi/gcc/arm-xilinx-eabi/13.4.0/include -isystem C:/AMDDesignTools/2026.1/gnu/aarch32/nt/gcc-arm-none-eabi/x86_64-oesdk-mingw32/usr/lib/arm-xilinx-eabi/gcc/arm-xilinx-eabi/13.4.0/include-fixed -isystem C:/AMDDesignTools/2026.1/Vitis/gnu/aarch32/nt/gcc-arm-none-eabi/aarch32-xilinx-eabi/usr/include  -DSDT -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard  -MMD -MP -specs=T:/build/vitis_work/platform/export/platform/sw/standalone/Xilinx.spec -IT:/build/vitis_work/platform/export/platform/sw/standalone/include -Wall -Wextra      -O0  -g3     -U__clang__ -o CMakeFiles\\tcp_led.elf.dir\\iic_phyreset.c.obj -c T:\\build\\vitis_work\\tcp_led\\src\\iic_phyreset.c",
+  "file": "T:\\build\\vitis_work\\tcp_led\\src\\iic_phyreset.c",
+  "output": "CMakeFiles\\tcp_led.elf.dir\\iic_phyreset.c.obj"
+},
+{
+  "directory": "T:/build/vitis_work/tcp_led/build",
+  "command": "C:\\AMDDesignTools\\2026.1\\Vitis\\gnu\\aarch32\\nt\\gcc-arm-none-eabi\\bin\\arm-none-eabi-gcc.exe -IT:/build/vitis_work/tcp_led/build/include -IT:/build/vitis_work/platform/export/platform/sw/standalone/include/include -isystem T:/build/vitis_work/platform/export/platform/sw/standalone/include -isystem C:/AMDDesignTools/2026.1/gnu/aarch32/nt/gcc-arm-none-eabi/x86_64-oesdk-mingw32/usr/lib/arm-xilinx-eabi/gcc/arm-xilinx-eabi/13.4.0/include -isystem C:/AMDDesignTools/2026.1/gnu/aarch32/nt/gcc-arm-none-eabi/x86_64-oesdk-mingw32/usr/lib/arm-xilinx-eabi/gcc/arm-xilinx-eabi/13.4.0/include-fixed -isystem C:/AMDDesignTools/2026.1/Vitis/gnu/aarch32/nt/gcc-arm-none-eabi/aarch32-xilinx-eabi/usr/include  -DSDT -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard  -MMD -MP -specs=T:/build/vitis_work/platform/export/platform/sw/standalone/Xilinx.spec -IT:/build/vitis_work/platform/export/platform/sw/standalone/include -Wall -Wextra      -O0  -g3     -U__clang__ -o CMakeFiles\\tcp_led.elf.dir\\fpga.c.obj -c T:\\build\\vitis_work\\tcp_led\\src\\fpga.c",
+  "file": "T:\\build\\vitis_work\\tcp_led\\src\\fpga.c",
+  "output": "CMakeFiles\\tcp_led.elf.dir\\fpga.c.obj"
+},
+{
+  "directory": "T:/build/vitis_work/tcp_led/build",
+  "command": "C:\\AMDDesignTools\\2026.1\\Vitis\\gnu\\aarch32\\nt\\gcc-arm-none-eabi\\bin\\arm-none-eabi-gcc.exe -IT:/build/vitis_work/tcp_led/build/include -IT:/build/vitis_work/platform/export/platform/sw/standalone/include/include -isystem T:/build/vitis_work/platform/export/platform/sw/standalone/include -isystem C:/AMDDesignTools/2026.1/gnu/aarch32/nt/gcc-arm-none-eabi/x86_64-oesdk-mingw32/usr/lib/arm-xilinx-eabi/gcc/arm-xilinx-eabi/13.4.0/include -isystem C:/AMDDesignTools/2026.1/gnu/aarch32/nt/gcc-arm-none-eabi/x86_64-oesdk-mingw32/usr/lib/arm-xilinx-eabi/gcc/arm-xilinx-eabi/13.4.0/include-fixed -isystem C:/AMDDesignTools/2026.1/Vitis/gnu/aarch32/nt/gcc-arm-none-eabi/aarch32-xilinx-eabi/usr/include  -DSDT -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard  -MMD -MP -specs=T:/build/vitis_work/platform/export/platform/sw/standalone/Xilinx.spec -IT:/build/vitis_work/platform/export/platform/sw/standalone/include -Wall -Wextra      -O0  -g3     -U__clang__ -o CMakeFiles\\tcp_led.elf.dir\\command.c.obj -c T:\\build\\vitis_work\\tcp_led\\src\\command.c",
+  "file": "T:\\build\\vitis_work\\tcp_led\\src\\command.c",
+  "output": "CMakeFiles\\tcp_led.elf.dir\\command.c.obj"
+},
+{
+  "directory": "T:/build/vitis_work/tcp_led/build",
+  "command": "C:\\AMDDesignTools\\2026.1\\Vitis\\gnu\\aarch32\\nt\\gcc-arm-none-eabi\\bin\\arm-none-eabi-gcc.exe -IT:/build/vitis_work/tcp_led/build/include -IT:/build/vitis_work/platform/export/platform/sw/standalone/include/include -isystem T:/build/vitis_work/platform/export/platform/sw/standalone/include -isystem C:/AMDDesignTools/2026.1/gnu/aarch32/nt/gcc-arm-none-eabi/x86_64-oesdk-mingw32/usr/lib/arm-xilinx-eabi/gcc/arm-xilinx-eabi/13.4.0/include -isystem C:/AMDDesignTools/2026.1/gnu/aarch32/nt/gcc-arm-none-eabi/x86_64-oesdk-mingw32/usr/lib/arm-xilinx-eabi/gcc/arm-xilinx-eabi/13.4.0/include-fixed -isystem C:/AMDDesignTools/2026.1/Vitis/gnu/aarch32/nt/gcc-arm-none-eabi/aarch32-xilinx-eabi/usr/include  -DSDT -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard  -MMD -MP -specs=T:/build/vitis_work/platform/export/platform/sw/standalone/Xilinx.spec -IT:/build/vitis_work/platform/export/platform/sw/standalone/include -Wall -Wextra      -O0  -g3     -U__clang__ -o CMakeFiles\\tcp_led.elf.dir\\tcp_server.c.obj -c T:\\build\\vitis_work\\tcp_led\\src\\tcp_server.c",
+  "file": "T:\\build\\vitis_work\\tcp_led\\src\\tcp_server.c",
+  "output": "CMakeFiles\\tcp_led.elf.dir\\tcp_server.c.obj"
+},
+{
+  "directory": "T:/build/vitis_work/tcp_led/build",
+  "command": "C:\\AMDDesignTools\\2026.1\\Vitis\\gnu\\aarch32\\nt\\gcc-arm-none-eabi\\bin\\arm-none-eabi-gcc.exe -IT:/build/vitis_work/tcp_led/build/include -IT:/build/vitis_work/platform/export/platform/sw/standalone/include/include -isystem T:/build/vitis_work/platform/export/platform/sw/standalone/include -isystem C:/AMDDesignTools/2026.1/gnu/aarch32/nt/gcc-arm-none-eabi/x86_64-oesdk-mingw32/usr/lib/arm-xilinx-eabi/gcc/arm-xilinx-eabi/13.4.0/include -isystem C:/AMDDesignTools/2026.1/gnu/aarch32/nt/gcc-arm-none-eabi/x86_64-oesdk-mingw32/usr/lib/arm-xilinx-eabi/gcc/arm-xilinx-eabi/13.4.0/include-fixed -isystem C:/AMDDesignTools/2026.1/Vitis/gnu/aarch32/nt/gcc-arm-none-eabi/aarch32-xilinx-eabi/usr/include  -DSDT -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard  -MMD -MP -specs=T:/build/vitis_work/platform/export/platform/sw/standalone/Xilinx.spec -IT:/build/vitis_work/platform/export/platform/sw/standalone/include -Wall -Wextra      -O0  -g3     -U__clang__ -o CMakeFiles\\tcp_led.elf.dir\\vendor_xemacpsif_physpeed.c.obj -c T:\\build\\vitis_work\\tcp_led\\src\\vendor_xemacpsif_physpeed.c",
+  "file": "T:\\build\\vitis_work\\tcp_led\\src\\vendor_xemacpsif_physpeed.c",
+  "output": "CMakeFiles\\tcp_led.elf.dir\\vendor_xemacpsif_physpeed.c.obj"
+}
+]

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1350" height="620" viewBox="0 0 1350 620">
+<defs><marker id="a" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto-start-reverse"><path d="M0 0L8 4L0 8" fill="none" stroke="#24445c"/></marker></defs>
+<rect width="1350" height="620" fill="white"/>
+<g font-family="Arial,sans-serif" fill="#152f44" text-anchor="middle">
+<text x="675" y="42" font-size="27" font-weight="bold">TCP → ARM → FPGA → LED D3</text>
+<text x="675" y="72" font-size="16">LED-demonstratie • terugmelding na verwerking door de FPGA • tijdelijk geladen via JTAG</text>
+<rect x="220" y="110" width="1100" height="370" rx="20" fill="#f8fafc" stroke="#24445c" stroke-width="2"/>
+<text x="770" y="140" font-size="22" font-weight="bold">MicroPhase Z7-Nano</text>
+<rect x="500" y="165" width="635" height="285" rx="12" fill="white" stroke="#64748b" stroke-dasharray="7 5"/>
+<text x="815" y="192" font-size="18" font-weight="bold">Zynq XC7Z020-chip</text>
+<rect x="25" y="245" width="160" height="125" rx="9" fill="#e2e8f0" stroke="#24445c"/>
+<text x="105" y="277" font-size="19" font-weight="bold">Laptop</text><text x="105" y="308" font-size="16">Pythonclient</text><text x="105" y="335" font-size="15">192.168.2.1</text>
+<rect x="250" y="245" width="205" height="125" rx="9" fill="#fff1df" stroke="#9a641e"/>
+<text x="352" y="276" font-size="19" font-weight="bold">PS ETH</text><text x="352" y="306" font-size="16">RJ45 + RTL8211F PHY</text><text x="352" y="335" font-size="15">Op board, buiten chip</text>
+<rect x="525" y="220" width="235" height="190" rx="9" fill="#e0f2fe" stroke="#0284c7"/>
+<text x="642" y="249" font-size="19" font-weight="bold">PS: ARM + Ethernet MAC</text><text x="642" y="280" font-size="16">Bare-metal C + lwIP</text><text x="642" y="308" font-size="16">TCP-server :5001</text><text x="642" y="336" font-size="16">Parser + FPGA-driver</text><text x="642" y="383" font-size="15">192.168.2.2</text>
+<rect x="885" y="220" width="225" height="190" rx="9" fill="#dcfce7" stroke="#16a34a"/>
+<text x="997" y="249" font-size="19" font-weight="bold">PL: FPGA-logica</text><text x="997" y="280" font-size="16">Eigen VHDL-registers</text><text x="997" y="308" font-size="16">Commando → LED-status</text><text x="997" y="336" font-size="16">Verwerkingsteller</text><text x="997" y="383" font-size="15">100 MHz + reset uit PS</text>
+<rect x="1180" y="270" width="110" height="90" rx="9" fill="#fff9c4" stroke="#9a641e"/>
+<text x="1235" y="300" font-size="18" font-weight="bold">LED D3</text><text x="1235" y="327" font-size="14">R14 actief-laag</text>
+<g stroke="#24445c" stroke-width="2" marker-end="url(#a)"><path d="M185 295H250" marker-start="url(#a)"/><path d="M455 295H525" marker-start="url(#a)"/><path d="M760 285H885"/><path d="M885 340H760"/><path d="M1110 315H1180"/></g>
+<text x="215" y="228" font-size="13">Ethernet</text><text x="490" y="228" font-size="13">MIO</text><text x="822" y="260" font-size="14">AXI-registers</text><text x="822" y="365" font-size="14">Status terug</text>
+<text x="675" y="520" font-size="17">LED 1 / LED 0 → FPGA verwerkt → ARM leest status + teller → OK via dezelfde TCP-verbinding</text>
+<text x="675" y="553" font-size="15">Bestaand: lwIP, AMD PS/AXI/reset-IP en drivers. Projectspecifiek: VHDL-registers, protocol, server en client.</text>
+<text x="675" y="582" font-size="15">Deze tussenstap is nog geen data-diode: PL ETH / beveiligde laptop zijn nog niet onderdeel van deze demo.</text>
+</g></svg>

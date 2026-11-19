@@ -1,0 +1,4 @@
+Time resolution is 1 ps
+Note: PASS: reset, LED, sequence, AW/W skew, backpressure, invalid accesses
+Time: 3056 ns  Iteration: 0  Process: /tb_led_registers/line__16  File: C:/Users/barts/Documents/ChatGPT/Project Data-diode/tcp_ps_pl_led_demo/sim/tb_led_registers.vhd
+$stop called at time : 3056 ns : File "C:/Users/barts/Documents/ChatGPT/Project Data-diode/tcp_ps_pl_led_demo/sim/tb_led_registers.vhd" Line 56

@@ -1,0 +1,122 @@
+5
+5
+4
+4
+3
+3
+2
+2
+1
+1
+D
+D
+C
+C
+B
+B
+A
+A
+Z7‐Nano Block Diagram
+Copyright 2018, MicroPhase Inc. All Rights Reserved.
+This Material may not be reprooduced, distributed, republished, displayed,
+posted, transmitted or copied in any form or by any mean without the prior
+written permission of MicroPhase Inc.
+29
+PS USB
+HDMI-TX
+PL ETH
+PS UART SD KEY LED
+27
+26
+5
+6
+28
+PAGE
+DESCRIPTION
+2
+PS BANK502
+1
+3
+4
+7
+9
+8
+10
+11
+13
+12
+14
+15
+17
+16
+18
+19
+21
+20
+22
+23
+25
+24
+Title, Notes, Block Diagram, Revision History
+PS BANK500&501
+DDR3 RAM
+ZYNQ Power
+PL BANK34&35
+PL BANK0&13
+PS ETH
+DESCRIPTION
+REV
+DATE
+PAGES
+1.0
+13/03/2021
+All
+Rev 1.0 Release
+40Pin GPIO_EEPROM
+USB-JTAG
+Power
+Title
+Size
+Document Number
+Rev
+Date:
+Sheet
+of
+MicroPhase Inc.  www.microphase.cn
+Block Diagram
+2.0
+Z7-Nano
+1
+15
+Thursday, July 27, 2023
+B
+Title
+Size
+Document Number
+Rev
+Date:
+Sheet
+of
+MicroPhase Inc.  www.microphase.cn
+Block Diagram
+2.0
+Z7-Nano
+1
+15
+Thursday, July 27, 2023
+B
+Title
+Size
+Document Number
+Rev
+Date:
+Sheet
+of
+MicroPhase Inc.  www.microphase.cn
+Block Diagram
+2.0
+Z7-Nano
+1
+15
+Thursday, July 27, 2023
+B

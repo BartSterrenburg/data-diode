@@ -1,0 +1,3 @@
+set diagnostic_heartbeat 0x0020005c
+set diagnostic_stage 0x00200058
+set diagnostic_version 0x00200060

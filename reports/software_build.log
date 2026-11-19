@@ -1,0 +1,65 @@
+
+****** Xilinx Vitis Development Environment
+****** Vitis v2026.1 (64-bit)
+****** SW Build 6511674 on 2026-06-16-13:14:45
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+
+Vitis Server started on port '51907'.
+Vitis Server for Embedded Edition. Only embedded component related functions are supported.
+Initiating build for the tcp_led component.
+Command: cmd.exe /C set CC= && set CXX= && empyro.bat build_app -s T:\build\vitis_work\tcp_led\src -b T:\build\vitis_work\tcp_led\build
+The log will be written to the file: T:\build\vitis_work\tcp_led\build\build.log
+[INFO]: Starting Application build process
+
+[INFO]: Building Application
+[1/8] ==========Application Build Information ==========
+
+
+
+Compiler Flags:  -DSDT -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard  -MMD -MP -specs=T:/build/vitis_
+
+work/platform/export/platform/sw/standalone/Xilinx.spec -IT:/build/vitis_work/platform/export/platfo
+
+rm/sw/standalone/include -Wall -Wextra      -O0  -g3     -U__clang__  
+
+
+
+Linker Flags:       -Wl,-T -Wl,"T:/build/vitis_work/tcp_led/src/lscript.ld" -L"T:/build/vitis_work/t
+
+cp_led/src/" -L"T:/build/vitis_work/platform/export/platform/sw/standalone/lib/" -L"/" -Wl,--start-g
+
+
+
+roup,-lxilstandalone,-lxiltimer,-llwip220,-lxil,-lxiltimer,-llwip220,-lgcc,-lc -Wl,--end-group
+
+
+
+
+
+===========================================
+
+[2/8] Building C object CMakeFiles/tcp_led.elf.dir/echo.c.obj
+
+[3/8] Building C object CMakeFiles/tcp_led.elf.dir/command.c.obj
+
+[4/8] Building C object CMakeFiles/tcp_led.elf.dir/fpga.c.obj
+
+[5/8] Building C object CMakeFiles/tcp_led.elf.dir/tcp_server.c.obj
+
+[6/8] Building C object CMakeFiles/tcp_led.elf.dir/main.c.obj
+
+[7/8] Building C object CMakeFiles/tcp_led.elf.dir/vendor_xemacpsif_physpeed.c.obj
+
+[8/8] Linking C executable tcp_led.elf
+
+   text	   data	    bss	    dec	    hex	filename
+
+
+
+ 148774	   3516	6379984	6532274	 63acb2	tcp_led.elf
+
+
+Build Finished successfully
+APPLICATION_BUILD_STATUS 0
+Shutting down Vitis server running on port '51907'

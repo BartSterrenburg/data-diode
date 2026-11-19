@@ -1,0 +1,17 @@
+OK STATUS LED 0 SEQ 3209 VERSION 00010000
+[
+  "LED aan",
+  "STATUS teruggelezen",
+  "LED uit",
+  "ongeldig",
+  "nulbyte",
+  "te lang",
+  "opgesplitst commando",
+  "drie commando’s in een TCP-write",
+  "CRLF",
+  "200 commando’s achter elkaar",
+  "verbreken met onvolledig commando en opnieuw verbinden",
+  "3000 burstcommando’s; FPGA-teller exact +3000",
+  "tweede client geweigerd; eerste blijft werken",
+  "TCP half-close levert laatste antwoord"
+]

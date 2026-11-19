@@ -1,0 +1,13 @@
+[
+  "LED aan",
+  "STATUS teruggelezen",
+  "LED uit",
+  "ongeldig",
+  "nulbyte",
+  "te lang",
+  "opgesplitst commando",
+  "drie commando’s in een TCP-write",
+  "CRLF",
+  "200 commando’s achter elkaar",
+  "verbreken met onvolledig commando en opnieuw verbinden"
+]

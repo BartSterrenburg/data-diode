@@ -1,0 +1,34 @@
+INFO: [Common 17-3922] A valid Vivado Design Suite BASIC license has been detected. Your current license is active and will expire on 01-oct-2027.
+#-----------------------------------------------------------
+# Vivado v2026.1 (64-bit)
+# SW Build 6511674 on Tue Jun 16 11:02:23 MDT 2026
+# IP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026
+# SharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026
+# Start of session at: Thu Nov 12 16:34:58 2026
+# Process ID         : 12860
+# Current directory  : C:/Users/barts/Documents/ChatGPT/Project Data-diode
+# Command line       : vivado.exe -mode batch -source tcp_ps_pl_led_demo\scripts\build.tcl -log tcp_ps_pl_led_demo\reports\vivado.log -journal tcp_ps_pl_led_demo\reports\vivado.jou
+# Log file           : C:/Users/barts/Documents/ChatGPT/Project Data-diode/tcp_ps_pl_led_demo/reports/vivado.log
+# Journal file       : C:/Users/barts/Documents/ChatGPT/Project Data-diode\tcp_ps_pl_led_demo\reports\vivado.jou
+# Running On         : BartOS
+# Platform           : Windows 11
+# Operating System   : 26200
+# Processor Detail   : AMD Ryzen 7 PRO 7840HS w/ Radeon 780M Graphics 
+# CPU Frequency      : 3793 MHz
+# CPU Physical cores : 8
+# CPU Logical cores  : 16
+# Host memory        : 33585 MB
+# Swap memory        : 2147 MB
+# Total Virtual      : 35732 MB
+# Available Virtual  : 15654 MB
+#-----------------------------------------------------------
+source {tcp_ps_pl_led_demo\scripts\build.tcl}
+# set root [file normalize [file join [file dirname [info script]] ..]]
+# create_project tcp_led $root/build/vivado -part xc7z020clg400-2 -force
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/barts/Documents/ChatGPT/Project Data-diode/tcp_ps_pl_led_demo/build/vivado'
+create_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:08 . Memory (MB): peak = 611.676 ; gain = 268.648
+# set_property target_language VHDL [current_project]
+# add_files $root/rtl/led_registers.vhd
+ERROR: [Vivado 12-172] File or Directory 'C:/Users/barts/Documents/ChatGPT/Project' does not exist
+INFO: [Common 17-206] Exiting Vivado at Thu Nov 12 16:35:09 2026...

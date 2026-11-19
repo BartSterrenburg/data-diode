@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/barts/Documents/ChatGPT/Project Data-diode/tcp_ps_pl_led_demo/rtl/led_registers.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'led_registers'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/barts/Documents/ChatGPT/Project Data-diode/tcp_ps_pl_led_demo/sim/tb_led_registers.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tb_led_registers'

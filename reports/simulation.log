@@ -1,0 +1,101 @@
+INFO: [Common 17-3922] A valid Vivado Design Suite BASIC license has been detected. Your current license is active and will expire on 01-oct-2027.
+#-----------------------------------------------------------
+# Vivado v2026.1 (64-bit)
+# SW Build 6511674 on Tue Jun 16 11:02:23 MDT 2026
+# IP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026
+# SharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026
+# Start of session at: Thu Nov 12 16:37:20 2026
+# Process ID         : 13844
+# Current directory  : C:/Users/barts/Documents/ChatGPT/Project Data-diode
+# Command line       : vivado.exe -mode batch -source tcp_ps_pl_led_demo\scripts\simulate.tcl -log tcp_ps_pl_led_demo\reports\simulation.log -journal tcp_ps_pl_led_demo\reports\simulation.jou
+# Log file           : C:/Users/barts/Documents/ChatGPT/Project Data-diode/tcp_ps_pl_led_demo/reports/simulation.log
+# Journal file       : C:/Users/barts/Documents/ChatGPT/Project Data-diode\tcp_ps_pl_led_demo\reports\simulation.jou
+# Running On         : BartOS
+# Platform           : Windows 11
+# Operating System   : 26200
+# Processor Detail   : AMD Ryzen 7 PRO 7840HS w/ Radeon 780M Graphics 
+# CPU Frequency      : 3793 MHz
+# CPU Physical cores : 8
+# CPU Logical cores  : 16
+# Host memory        : 33585 MB
+# Swap memory        : 2147 MB
+# Total Virtual      : 35732 MB
+# Available Virtual  : 12602 MB
+#-----------------------------------------------------------
+source {tcp_ps_pl_led_demo\scripts\simulate.tcl}
+# set root [file normalize [file join [file dirname [info script]] ..]]
+# create_project sim_led $root/build/sim -part xc7z020clg400-2 -force
+create_project: Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 612.270 ; gain = 269.375
+# add_files [list $root/rtl/led_registers.vhd]
+# add_files -fileset sim_1 [list $root/sim/tb_led_registers.vhd]
+# set_property file_type {VHDL 2008} [get_files *.vhd]
+# set_property top tb_led_registers [get_filesets sim_1]
+# launch_simulation
+Command: launch_simulation  -mode behavioral
+INFO: [Vivado 12-25911] Executing simulation for 'XSim' simulator
+INFO: [Vivado 12-28535] Process started - Thu Nov 12 16:37:31 2026
+
+INFO: [Vivado 12-12493] Simulation top is 'tb_led_registers'
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/barts/Documents/ChatGPT/Project Data-diode/tcp_ps_pl_led_demo/build/sim/sim_led.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/AMDDesignTools/2026.1/Vivado/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_led_registers' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/barts/Documents/ChatGPT/Project Data-diode/tcp_ps_pl_led_demo/build/sim/sim_led.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj tb_led_registers_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/barts/Documents/ChatGPT/Project Data-diode/tcp_ps_pl_led_demo/rtl/led_registers.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'led_registers'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/barts/Documents/ChatGPT/Project Data-diode/tcp_ps_pl_led_demo/sim/tb_led_registers.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tb_led_registers'
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/barts/Documents/ChatGPT/Project Data-diode/tcp_ps_pl_led_demo/build/sim/sim_led.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_led_registers_behav xil_defaultlib.tb_led_registers -log elaborate.log"
+Vivado Simulator v2026.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/AMDDesignTools/2026.1/Vivado/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_led_registers_behav xil_defaultlib.tb_led_registers -log elaborate.log 
+INFO: [XSIM 43-3493] Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package std.env
+Compiling architecture rtl of entity xil_defaultlib.led_registers [led_registers_default]
+Compiling architecture test of entity xil_defaultlib.tb_led_registers
+Built simulation snapshot tb_led_registers_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/barts/Documents/ChatGPT/Project Data-diode/tcp_ps_pl_led_demo/build/sim/sim_led.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_led_registers_behav -key {Behavioral:sim_1:Functional:tb_led_registers} -tclbatch {tb_led_registers.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source tb_led_registers.tcl
+## set curr_wave [current_wave_config]
+## if { [string length $curr_wave] == 0 } {
+##   if { [llength [get_objects]] > 0} {
+##     add_wave /
+##     set_property needs_save false [current_wave_config]
+##   } else {
+##      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+##   }
+## }
+## run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_led_registers_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 634.195 ; gain = 21.926
+# run all
+Note: PASS: reset, LED, sequence, AW/W skew, backpressure, invalid accesses
+Time: 3056 ns  Iteration: 0  Process: /tb_led_registers/line__16  File: C:/Users/barts/Documents/ChatGPT/Project Data-diode/tcp_ps_pl_led_demo/sim/tb_led_registers.vhd
+$stop called at time : 3056 ns : File "C:/Users/barts/Documents/ChatGPT/Project Data-diode/tcp_ps_pl_led_demo/sim/tb_led_registers.vhd" Line 56
+# close_sim
+INFO: [Simtcl 6-16] Simulation closed
+INFO: [Common 17-206] Exiting Vivado at Thu Nov 12 16:37:39 2026...
